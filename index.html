@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        .search {
+            display: flex;
+
+            justify-content:space-evenly ;
+        }
+
+        #logo {
+            display: flex;
+        }
+
+        #logo>h1 {
+            margin-right: 10px;
+        }
+
+        #logo>img {
+            width: 50px;
+            height: 50px;
+            margin: auto;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .input-search {
+            width: 70%;
+            border: 1px solid black;
+            position: relative;
+
+        }
+
+        .input-search>input {
+            width: 99%;
+            margin: 22px 0px;
+            padding: 8px 0px;
+            font-size: 19px;
+            position: relative;
+            padding-left: 10px;
+            border: 1px solid gainsboro;
+
+        }
+
+        .input-search>button {
+            position: absolute;
+            right: 0;
+            top: 22px;
+            padding: 6.5px 12px;
+            background-color: red;
+            font-size: 22px;
+            border: 0px;
+            border-radius: 0px 5px 5px 0px;
+        }
+        .input-search{
+            border:0px
+        }
+        .input-search a {
+            color: white;
+        }
+        .input-search~div>p{
+            text-align: center;
+            margin-top: -3px;
+            margin-left: 10px;
+        }
+        .input-search~div{
+            margin-top: 12px;
+            margin: auto;
+        }
+        .input-search~div:nth-child(2)>p{
+            margin-left: 10px;
+        }
+        .UserDropDowns_icon_06{
+            margin-left: 14px;
+            margin-top: 20px;
+        }
+        #navigator{
+            font-family:helvetica;
+            font-weight:400;
+            font-size:18px;
+            font-style:normal;
+            display: flex;
+            justify-content: space-around;
+            border: 1px solid gainsboro;
+            width: 100%;
+            height: 40px;
+            align-items: center;
+        }
+        #navigator>p:nth-child(11){
+            color:gainsboro;
+        }
+        #navigator:hover{
+            cursor: pointer;
+        }
+        #friday{
+            width:100%;
+            height:600px;
+            background-image: url("https://i.pinimg.com/736x/bc/5b/ad/bc5badf6e3db401bfc127210d726d52f.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-color: #cccccc;
+            
+        }
+        #time-deals>div{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #time-deals>div>div:nth-child(1){
+            width: 15%;
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVUvs7pxOGEDOTy-UL6TuI5tn-fvfbIFoq5WLw9LLMK5YaK55U0bIemW0LCPYogAvqMr4&usqp=CAU");
+            background-repeat: no-repeat;
+            background-size: 70% 60%;
+            background-position:bottom;
+            background-color:aliceblue;
+        }
+        #time-deals>div>div:nth-child(2){
+            width:15%;
+            background-image: url("https://ak1.ostkcdn.com/images/products/is/images/direct/bb3f076d86649289c98402a62b00203561b40bb7/Copper-Grove-Laren-Swiveling-Adjustable-height-Bar-Stools-%28Set-of-3%29.jpg?imwidth=480&impolicy=medium");
+            background-repeat: no-repeat;
+            background-size: 70% 60%;
+            background-position:bottom;
+            background-color:aliceblue;
+        }
+        #time-deals>div>div:nth-child(3){
+            width:15%;
+            background-image: url("https://ak1.ostkcdn.com/images/products/is/images/direct/2b30ce9e2f7890a0981e6c135f81dad33907f364/Coma-Inducer-Oversized-Comforter---Me-Sooo-Comfy---Glacier-Gray.jpg?imwidth=480&impolicy=medium");
+            background-repeat: no-repeat;
+            background-size: 70% 60%;
+            background-position:bottom;
+            background-color:aliceblue;
+        }
+        #time-deals>div>div:nth-child(4){
+            width:15%;
+            background-image: url("https://ak1.ostkcdn.com/images/products/is/images/direct/d14a8ea2336e8cbc99771690f2b44d1942d3f6bd/Floating-Shelves-Rustic-Wood-Wall-Shelf-USA-Handmade-Set-of-2.jpg?imwidth=480&impolicy=medium");
+            background-repeat: no-repeat;
+            background-size: 70% 60%;
+            background-position:bottom;
+            background-color:aliceblue;
+        }
+        #time-deals>div>div:nth-child(5){
+            width:15%;
+            background-image: url("https://ak1.ostkcdn.com/images/products/is/images/direct/18b1abdd7cade3542a0742255fce9ca971ba0818/2-Light-Farmhouse-Flush-Mount-Ceiling-Light.jpg?imwidth=480&impolicy=medium");
+            background-repeat: no-repeat;
+            background-size: 70% 60%;
+            background-position:bottom;
+            background-color:aliceblue;
+        }
+        #time-deals>div>div:nth-child(6){
+            width:15%;
+            background-image: url("https://ak1.ostkcdn.com/images/products/is/images/direct/1a25b38de5994e3a59836d8942231cdf7efbeb86/7-foot-Noble-Fir-Pre-Lit-String-Light-or-Unlit-Hinged-Artificial-Christmas-Tree-by-Christopher-Knight-Home.jpg?imwidth=480&impolicy=medium");
+            background-repeat: no-repeat;
+            background-size: 70% 60%;
+            background-position:bottom;
+            background-color:aliceblue;
+        }
+        #time-deals>h1{
+            text-align: center;
+            font-family:Helvetica;
+            font-weight: 700;
+            font-size: 32px;
+            color:rgb(47, 51, 55);
+            font-style:normal;
+        }
+        #time-deals p{
+            text-align: center;
+            font-family:Helvetica;
+            font-weight: 400;
+            font-size: 22px;
+            color:rgb(68, 68, 68);
+            font-style:normal;
+            margin-bottom: -70px;
+        }
+        #halls{
+            width:97%;
+            height:550px;
+            background-image: url("https://www.dagmarbleasdale.com/wp-content/uploads/2017/10/IMG_0948-3.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-color: #cccccc;            
+            margin: auto;
+            margin-top: 130px;
+        }
+
+        
+
+    </style>
+</head>
+
+<body>
+    <div class="search-bar">
+        <div class="search">
+            <div id="logo">
+                <img src="Dn.png" alt="">
+                <h1>DailyNeeds</h1>
+            </div>
+            <div class="input-search">
+                <input type="text" placeholder="Search... everything you find ships for free">
+                <button><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></button>
+            </div>
+            
+            <div><svg class="UserDropDowns_icon_06" width="22" height="22" viewBox="0 0 24 24" stroke="#2F3337" fill="#2F3337"><title>User</title><path d="M1 23c0-5.523 4.477-10 10-10h2c5.523 0 10 4.477 10 10M12 13a6 6 0 100-12 6 6 0 000 12z" stroke="inherit" fill="none" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg><p>Account</p></div>
+            <div><svg class="UserDropDowns_icon_06" width="22" height="22" viewBox="0 0 24 24" stroke="#2F3337" fill="#2F3337"><title>Heart</title><path d="M21.241 3.757A6 6 0 0012 4.684a6 6 0 10-9.242 7.558l9.241 9.243 9.243-9.243a6 6 0 000-8.485z" fill="none" stroke="inherit" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg><p>Lists</p></div>
+            <div><svg class="UserDropDowns_icon_06" width="22" height="21" viewBox="0 0 24 24" stroke="#2F3337" fill="#2F3337"><title>Cart Empty</title><path fill-rule="evenodd" clip-rule="evenodd" d="M7.174 14.4L5.208.833C5.14.356 4.697 0 4.174 0h-3.13C.466 0 0 .43 0 .96s.467.96 1.043.96H3.26l1.966 13.567c.07.477.512.833 1.035.833h14.608c.498 0 .926-.323 1.024-.772l2.087-9.6c.113-.52-.254-1.025-.819-1.13-.565-.103-1.115.234-1.228.754L20.014 14.4H7.174zm.13 9.6a2.087 2.087 0 100-4.174 2.087 2.087 0 000 4.174zm14.61-2.087a2.087 2.087 0 11-4.175 0 2.087 2.087 0 014.174 0z" stroke="none" fill="inherit"></path></svg><p>Cart</p></div>
+            
+        </div>
+
+    </div>
+    <div id="navigator">
+        <p>Furnicture</p>
+        <p>Rugs</p>
+        <p>Decor</p>
+        <p>Bedding</p>
+        <p>Home Improvement</p>
+        <p>Kitchen</p>
+        <p>Outdoor</p>
+        <p>Lighting</p>
+        <p>Kids & Baby</p>
+        <p>More</p>
+        <p>|</p>
+        <p>Ideas</p>
+        <p>Sales & Deals</p>
+    </div>
+
+    <div id="friday">
+        <img src="https://ak1.ostkcdn.com/img/mxc/10312022-A1-HP-INTL-1400x550_DSK-INTL.svg" alt="">
+    </div>
+    <div id="time-deals">
+            <h1>Limited Time Deals</h1>
+        <div>    
+            <div>
+                <img src="https://ak1.ostkcdn.com/img/mxc/10312022_HB_INTL-CAN_1.svg?imwidth=1920" alt="">
+                <p>select rugs</p>
+            </div>
+            <div>
+                <img src="https://ak1.ostkcdn.com/img/mxc/10312022_HB_INTL-CAN_2.svg?imwidth=1920" alt="">
+                <p>select dining room furnitures</p>
+            </div>
+            <div>
+                <img src="https://ak1.ostkcdn.com/img/mxc/10312022_HB_INTL-CAN_3.svg?imwidth=1920" alt="">
+                <p>select bedding</p>
+            </div>
+            <div>
+                <img src="https://ak1.ostkcdn.com/img/mxc/10312022_HB_INTL-CAN_4.svg?imwidth=1920" alt="">
+                <p>select home decor</p>
+            </div>
+            <div>
+                <img src="https://ak1.ostkcdn.com/img/mxc/10312022_HB_INTL-CAN_5.svg?imwidth=1920" alt="">
+                <p>select lighting</p>
+            </div>
+            <div>
+                <img src="https://ak1.ostkcdn.com/img/mxc/10312022_V2_HB_INTL-CAN_6.svg?imwidth=1920" alt="">
+                <p>select chritmas trees</p>
+            </div>
+        </div>
+    </div>
+    <div id="halls">
+        <img src="https://ak1.ostkcdn.com/img/mxc/10312022-SB-HolidayDecor-1400x550_Promo1.svg?imwidth=1920" alt="">
+    </div>
+</body>
+
+</html>
