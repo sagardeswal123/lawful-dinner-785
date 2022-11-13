@@ -9,7 +9,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
     <style>
-                .search-login {
+        .search-login {
             display: flex;
 
             justify-content:space-evenly ;
@@ -48,9 +48,12 @@
             border: 1px solid gainsboro;
 
         }
+        .input-search-login+div svg{
+            margin-left: 25px;;
+        }
         .UserDropDowns_icon_06{
             margin-left: 14px;
-            margin-top: 20px;
+            margin-top: 30px;
         }
 
         .input-search-login>button {
@@ -181,6 +184,52 @@
         #checkbox p{
             padding-top: 20px;
         }
+        #underline{
+            border:1px solid gainsboro;
+            width:70%;
+            margin: auto;
+            margin-left: 35px;
+        }
+        #guest{
+            width: 87%;
+            height: 50px;
+            margin-top: 20px;
+            border-radius: 3px;
+            font-size: 20px;
+            background-color:rgb(250,250,250);
+            color:rgb(98,102,105);
+            margin-bottom: 30px;
+            border: 1px solid rgb(213,215,216);
+            margin-top: 30px;
+        }
+        #guest+p{
+            text-align: center;
+            margin-right: 40px;
+            color: rgb(98,102,105);
+        }
+        #guest+p+p{
+            text-align: center;
+            margin-right: 50px;
+        }
+        #guest+p+p+p{
+            text-align: center;
+            margin-right: 50px;
+            margin-top: -30px;
+            color: rgb(98,102,105);
+        }
+        .terms{
+            color:black;
+        }
+        #bottom{
+            margin-top: 40px;
+            margin-left: 15%;
+            color: rgb(47,51,55);
+            height: 190px;
+            line-height: 1.5;
+            font-size: 15px;
+            font-weight: 400;
+            font-family:Helvetica;
+        }
 
 
     </style>
@@ -197,27 +246,27 @@
                 <button><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></button>
             </div>
             
-            <div><svg width="22" height="22" viewBox="0 0 24 24" stroke="#2F3337" fill="#2F3337"><title>User</title><path d="M1 23c0-5.523 4.477-10 10-10h2c5.523 0 10 4.477 10 10M12 13a6 6 0 100-12 6 6 0 000 12z" stroke="inherit" fill="none" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg><p>Account</p></div>
+            <div><svg width="22" height="22" viewBox="0 0 24 24" stroke="#2F3337" fill="#2F3337"><title>User</title><path d="M1 23c0-5.523 4.477-10 10-10h2c5.523 0 10 4.477 10 10M12 13a6 6 0 100-12 6 6 0 000 12z" stroke="inherit" fill="none" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg><p><a href="./login.html"> Account</p></a></div>
             <div><svg width="22" height="22" viewBox="0 0 24 24" stroke="#2F3337" fill="#2F3337"><title>Heart</title><path d="M21.241 3.757A6 6 0 0012 4.684a6 6 0 10-9.242 7.558l9.241 9.243 9.243-9.243a6 6 0 000-8.485z" fill="none" stroke="inherit" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg><p>Lists</p></div>
-            <div><svg width="22" height="21" viewBox="0 0 24 24" stroke="#2F3337" fill="#2F3337"><title>Cart Empty</title><path fill-rule="evenodd" clip-rule="evenodd" d="M7.174 14.4L5.208.833C5.14.356 4.697 0 4.174 0h-3.13C.466 0 0 .43 0 .96s.467.96 1.043.96H3.26l1.966 13.567c.07.477.512.833 1.035.833h14.608c.498 0 .926-.323 1.024-.772l2.087-9.6c.113-.52-.254-1.025-.819-1.13-.565-.103-1.115.234-1.228.754L20.014 14.4H7.174zm.13 9.6a2.087 2.087 0 100-4.174 2.087 2.087 0 000 4.174zm14.61-2.087a2.087 2.087 0 11-4.175 0 2.087 2.087 0 014.174 0z" stroke="none" fill="inherit"></path></svg><p>Cart</p></div>
+            <div><svg width="22" height="21" viewBox="0 0 24 24" stroke="#2F3337" fill="#2F3337"><title>Cart Empty</title><path fill-rule="evenodd" clip-rule="evenodd" d="M7.174 14.4L5.208.833C5.14.356 4.697 0 4.174 0h-3.13C.466 0 0 .43 0 .96s.467.96 1.043.96H3.26l1.966 13.567c.07.477.512.833 1.035.833h14.608c.498 0 .926-.323 1.024-.772l2.087-9.6c.113-.52-.254-1.025-.819-1.13-.565-.103-1.115.234-1.228.754L20.014 14.4H7.174zm.13 9.6a2.087 2.087 0 100-4.174 2.087 2.087 0 000 4.174zm14.61-2.087a2.087 2.087 0 11-4.175 0 2.087 2.087 0 014.174 0z" stroke="none" fill="inherit"></path></svg><p><a href="./cart.html"> Cart </a></p></div>
             
         </div>
 
     </div>
     <div id="navigator-login">
-        <p>Furnicture</p>
-        <p>Rugs</p>
-        <p>Decor</p>
-        <p>Bedding</p>
-        <p>Home Improvement</p>
-        <p>Kitchen</p>
-        <p>Outdoor</p>
-        <p>Lighting</p>
-        <p>Kids & Baby</p>
-        <p>More</p>
+        <p><a href="./product.html">Furnicture</a></p>
+        <p><a href="./product.html">Rugs</a></p>
+        <p><a href="./product.html">Decor</a></p>
+        <p><a href="./product.html">Bedding</a></p>
+        <p><a href="./product.html">Home Improvement</a></p>
+        <p><a href="./product.html">Kitchen</a></p>
+        <p><a href="./product.html">Outdoor</a></p>
+        <p><a href="./product.html">Lighting</a></p>
+        <p><a href="./product.html">Kids & Baby</a></p>
+        <p><a href="./product.html">More</a></p>
         <p>|</p>
-        <p>Ideas</p>
-        <p>Sales & Deals</p>
+        <p><a href="./product.html">Ideas</a></p>
+        <p><a href="./product.html">Sales & Deals</a></p>
     </div>
     <div id="log-title">
         <div>
@@ -230,34 +279,95 @@
     <div id="log-sign">
         <div class="create-account">           
             <p>Email Address*</p>
-            <input type="text" placeholder="Email"><br>
+            <input id="cEmail" type="text"  placeholder="Email"><br>
             <div id="cc-pass">
                 <div>
                     <p>Create Password*</p>
-                    <input type="text" placeholder="Password">
+                    <input id="pass" type="email" placeholder="Password">
                 </div>
                 <div>    
                     <p>Confirm Password*</p>
-                    <input type="text" placeholder="Confirm Password"><br>
+                    <input id="cPass" type="email" placeholder="Confirm Password"><br>
                 </div>
             </div>    
             <div id="checkbox">
-                <input type="checkbox" name="omail_subscribe" value="true"  data-gtm-form-interact-field-id="0" >
+                <input id="checkBox" type="checkbox" name="omail_subscribe" value="true"  data-gtm-form-interact-field-id="0">
                 <p> Sign up today for exclusive offers from Overstock.com delivered right to your inbox**</p>
             </div>
-            <button>Create Account</button>
+            <button id="signup" onclick="createAcc()">Create Account</button>
+            <div id="underline"></div>
+            <button id="guest">Continue as guest</button>
+            <p>By creating an account or continuing as a Guest, you agree to our <b class="terms"><u>Terms & Conditions</u></b> and <b class="terms"><u>Privacy Policy</u></b>.</p>
+            <p><b><u>Terms & Conditions</u></b> | <b><u>Privacy Policy</u></b></p>.
+                <p>**You can unsubscribe at any time</p>
 
         </div>
         <div class="signin">
             <p>Email Address*</p>
-            <input type="text" placeholder="Email"><br>
+            <input id="email" type="text" placeholder="Email"required><br>
             <p>Password*</p>
-            <input type="text" placeholder="Password"><br>
-            <button>Sign In</button><br>
+            <input id="password" type="text" placeholder="Password"required><br>
+            <button id="signin" onclick="signinAcc()">Sign In</button><br>
             <a href="">Forgot your password?</a>
         </div>
     </div>
+    <p id="bottom">Return Policy <br>
+        Contact Customer Care <br>
+        FAQ <br>
+        Privacy Policy <br>
+        Site User Terms & Conditions* <br>
+        © 2022 Overstock.com All Rights Reserved <br>
+        We self-certify compliance with: <br>
+        <img src="https://ak1.ostkcdn.com/img/mxc/20200630-intl-privacy_shield.png" alt="">
+    </p>
 </body>
 </html>
+<script>
+    let lsData =JSON.parse(localStorage.getItem("signup"))||[]
+    let signup = document.querySelector("#signup")
+    let signin = document.querySelector("#signin");
+    let inputPass = document.querySelector("#pass");
+    let conFirm = document.querySelector("#cPass");
+    let data = JSON.parse(localStorage.getItem("signup"));
+   
+  
+
+    function createAcc(){
+        let cEmail = document.querySelector("#cEmail").value;
+        let cPass = document.querySelector("#cPass").value;
+        let checkBox = document.querySelector("#checkBox").value;
+        let accountCreated = {
+            cEmail,
+            cPass
+        };
+        if(inputPass.value !== conFirm.value){
+            alert("Please check your password")
+        }
+        else if(cPass == "" || cEmail==""||checkBox=="false"){
+            alert("Please fill all the details")
+        }
+        else{
+            alert("signup successfull")
+            lsData.push(accountCreated);
+            localStorage.setItem("signup",JSON.stringify(lsData))
+        }
+    }
+
+    function signinAcc(){
+        event.preventDefault();
+        let Email = document.querySelector("#email").value;
+        let Password = document.querySelector("#password").value;
+
+        let present = data.filter(function(elem){
+            return Email==elem.cEmail && Password ==elem.cPass
+        });
+        if(present==0){
+            alert("Wrong Credential")
+        }
+        else{
+            alert("Login Success")
+        }
+    }
+</script>
 
 

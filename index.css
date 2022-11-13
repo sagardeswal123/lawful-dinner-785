@@ -1,0 +1,307 @@
+.search {
+    display: flex;
+
+    justify-content:space-evenly ;
+}
+
+#logo {
+    display: flex;
+}
+
+#logo>h1 {
+    margin-right: 10px;
+}
+
+#logo>img {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.input-search {
+    width: 70%;
+    border: 1px solid black;
+    position: relative;
+
+}
+
+.input-search>input {
+    width: 99%;
+    margin: 22px 0px;
+    padding: 8px 0px;
+    font-size: 19px;
+    position: relative;
+    padding-left: 10px;
+    border: 1px solid gainsboro;
+
+}
+.input-search+div svg{
+    margin-left: 25px;;
+}
+
+.input-search>button {
+    position: absolute;
+    right: 0;
+    top: 22px;
+    padding: 6.5px 12px;
+    background-color: red;
+    font-size: 22px;
+    border: 0px;
+    border-radius: 0px 5px 5px 0px;
+}
+.input-search{
+    border:0px
+}
+.input-search a {
+    color: white;
+}
+.input-search~div>p{
+    text-align: center;
+    margin-top: -3px;
+    margin-left: 10px;
+}
+.input-search~div{
+    margin-top: 12px;
+    margin: auto;
+}
+.input-search~div:nth-child(2)>p{
+    margin-left: 10px;
+}
+.UserDropDowns_icon_06{
+    margin-left: 14px;
+    margin-top: 20px;
+}
+#navigator{
+    font-family:helvetica;
+    font-weight:400;
+    font-size:18px;
+    font-style:normal;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid gainsboro;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+}
+#navigator>p:nth-child(11){
+    color:gainsboro;
+}
+#navigator:hover{
+    cursor: pointer;
+}
+#friday{
+    width:100%;
+    height:600px;
+    background-image: url("https://i.pinimg.com/736x/bc/5b/ad/bc5badf6e3db401bfc127210d726d52f.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #cccccc;
+    
+}
+#time-deals>div{
+    display: flex;
+    justify-content: space-evenly;
+}
+#time-deals>div>div:nth-child(1){
+    width: 15%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVUvs7pxOGEDOTy-UL6TuI5tn-fvfbIFoq5WLw9LLMK5YaK55U0bIemW0LCPYogAvqMr4&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 70% 60%;
+    background-position:bottom;
+    background-color:aliceblue;
+}
+#time-deals>div>div:nth-child(2){
+    width:15%;
+    background-image: url("https://ak1.ostkcdn.com/images/products/is/images/direct/bb3f076d86649289c98402a62b00203561b40bb7/Copper-Grove-Laren-Swiveling-Adjustable-height-Bar-Stools-%28Set-of-3%29.jpg?imwidth=480&impolicy=medium");
+    background-repeat: no-repeat;
+    background-size: 70% 60%;
+    background-position:bottom;
+    background-color:aliceblue;
+}
+#time-deals>div>div:nth-child(3){
+    width:15%;
+    background-image: url("https://ak1.ostkcdn.com/images/products/is/images/direct/2b30ce9e2f7890a0981e6c135f81dad33907f364/Coma-Inducer-Oversized-Comforter---Me-Sooo-Comfy---Glacier-Gray.jpg?imwidth=480&impolicy=medium");
+    background-repeat: no-repeat;
+    background-size: 70% 60%;
+    background-position:bottom;
+    background-color:aliceblue;
+}
+#time-deals>div>div:nth-child(4){
+    width:15%;
+    background-image: url("https://ak1.ostkcdn.com/images/products/is/images/direct/d14a8ea2336e8cbc99771690f2b44d1942d3f6bd/Floating-Shelves-Rustic-Wood-Wall-Shelf-USA-Handmade-Set-of-2.jpg?imwidth=480&impolicy=medium");
+    background-repeat: no-repeat;
+    background-size: 70% 60%;
+    background-position:bottom;
+    background-color:aliceblue;
+}
+#time-deals>div>div:nth-child(5){
+    width:15%;
+    background-image: url("https://ak1.ostkcdn.com/images/products/is/images/direct/18b1abdd7cade3542a0742255fce9ca971ba0818/2-Light-Farmhouse-Flush-Mount-Ceiling-Light.jpg?imwidth=480&impolicy=medium");
+    background-repeat: no-repeat;
+    background-size: 70% 60%;
+    background-position:bottom;
+    background-color:aliceblue;
+}
+#time-deals>div>div:nth-child(6){
+    width:15%;
+    background-image: url("https://ak1.ostkcdn.com/images/products/is/images/direct/1a25b38de5994e3a59836d8942231cdf7efbeb86/7-foot-Noble-Fir-Pre-Lit-String-Light-or-Unlit-Hinged-Artificial-Christmas-Tree-by-Christopher-Knight-Home.jpg?imwidth=480&impolicy=medium");
+    background-repeat: no-repeat;
+    background-size: 70% 60%;
+    background-position:bottom;
+    background-color:aliceblue;
+}
+#time-deals>h1{
+    text-align: center;
+    font-family:Helvetica;
+    font-weight: 700;
+    font-size: 32px;
+    color:rgb(47, 51, 55);
+    font-style:normal;
+}
+#time-deals p{
+    text-align: center;
+    font-family:Helvetica;
+    font-weight: 400;
+    font-size: 22px;
+    color:rgb(68, 68, 68);
+    font-style:normal;
+    margin-bottom: -70px;
+}
+#halls{
+    width:97%;
+    height:550px;
+    background-image: url("https://www.dagmarbleasdale.com/wp-content/uploads/2017/10/IMG_0948-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #cccccc;            
+    margin: auto;
+    margin-top: 130px;
+}
+
+.fresh>div{
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    text-align: center;
+    font-family:Helvetica;
+    font-weight: 400;
+    font-size: 22px;
+    color:rgb(68, 68, 68);
+    font-style:normal;
+    margin-bottom: 20px;
+    
+}
+.fresh>h1{
+    text-align: center;
+    font-family:Helvetica;
+    font-weight: 700;
+    font-size: 32px;
+    color:rgb(47, 51, 55);
+    font-style:normal;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.fresh img{
+    width: 90%;
+}
+#seasonal>div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+#seasonal>div div{
+    width: 25%;
+    padding-left: 15px;
+}
+#seasonal>h1{
+    text-align: center;
+    font-family:Helvetica;
+    font-weight: 700;
+    font-size: 32px;
+    color:rgb(47, 51, 55);
+    font-style:normal;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+#seasonal h2{
+    font-family:Helvetica;
+    font-weight: 600;
+    font-size: 22px;
+    font-style:normal;
+    margin-bottom: 20px;
+}
+#seasonal p{
+    font-family:Helvetica;
+    font-weight: 400;
+    font-size: 15px;
+    font-style:normal;
+    word-wrap: break-word;
+}
+#seasonal img{
+    width: 100%;
+    height: 300px;
+}
+#styles{
+    margin-left:46%;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+#styles+h1{
+    text-align: center;
+}
+#searches{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 8px;
+    grid-template-rows: auto;
+    text-align: center;
+    text-align: center;
+    font-family:Helvetica;
+    font-weight: 700;
+    font-size: 22px;
+    color:rgb(47, 51, 55);
+    font-style:normal;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+#searches>div{
+    background-color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#details{
+    display:flex ;
+    justify-content: space-evenly;
+    background-color: rgb(84,86,88);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}#details>div{
+    line-height: 3;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    background-color: rgb(47,51,55);
+    color: white;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+#footer>div:nth-child(2){
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}#footer>div:nth-child(1){
+    font-size: 15px;
+}
+
+#footer img{
+    margin-top: -8px;
+}

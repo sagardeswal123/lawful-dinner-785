@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        .search {
+            display: flex;
+
+            justify-content:space-evenly ;
+        }
+
+        #logo {
+            display: flex;
+        }
+
+        #logo>h1 {
+            margin-right: 10px;
+        }
+
+        #logo>img {
+            width: 50px;
+            height: 50px;
+            margin: auto;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .input-search {
+            width: 70%;
+            border: 1px solid black;
+            position: relative;
+
+        }
+
+        .input-search>input {
+            width: 99%;
+            margin: 22px 0px;
+            padding: 8px 0px;
+            font-size: 19px;
+            position: relative;
+            padding-left: 10px;
+            border: 1px solid gainsboro;
+
+        }
+
+        .input-search>button {
+            position: absolute;
+            right: 0;
+            top: 22px;
+            padding: 6.5px 12px;
+            background-color: red;
+            font-size: 22px;
+            border: 0px;
+            border-radius: 0px 5px 5px 0px;
+        }
+        .input-search{
+            border:0px
+        }
+        .input-search a {
+            color: white;
+        }
+        .input-search~div>p{
+            text-align: center;
+            margin-top: -3px;
+            margin-left: 10px;
+        }
+        .input-search~div{
+            margin-top: 12px;
+            margin: auto;
+        }
+        .input-search+div svg{
+            margin-left: 25px;;
+       }
+        .input-search~div:nth-child(2)>p{
+            margin-left: 10px;
+        }
+        .UserDropDowns_icon_06{
+            margin-left: 14px;
+            margin-top: 20px;
+        }
+        #navigator{
+            font-family:helvetica;
+            font-weight:400;
+            font-size:18px;
+            font-style:normal;
+            display: flex;
+            justify-content: space-around;
+            border: 1px solid gainsboro;
+            width: 100%;
+            height: 40px;
+            align-items: center;
+        }
+        #navigator>p:nth-child(11){
+            color:gainsboro;
+        }
+        #navigator:hover{
+            cursor: pointer;
+        }
+        .cart{
+            margin-left: 60px;
+            margin-top: 50px;
+            font-family:Helvetica;
+            font-weight: 400;
+            font-size: 30px;
+            color:rgb(68, 68, 68);
+            font-style:normal;
+        }
+        #cart-div{
+            width: 93%;
+            margin: auto;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #cart-div>div:nth-child(1){
+            border: 1px solid rgb(56, 58, 58);
+            width: 90%;
+            height: auto;
+            text-align: center;
+            font-family:Helvetica;
+            font-weight: 400;
+            font-size: 14px;
+            color:rgb(123, 118, 118);
+            font-style:normal;
+            padding-top: 55px;
+        }
+        #cart-div>div:nth-child(2){
+            border: 1px solid rgb(56, 58, 58);
+            width: 30%;
+            height: 200px;
+            margin-left: 10px;
+            
+        }#cart-div>div:nth-child(2)>div:nth-child(1){
+            display: flex;
+            justify-content: space-between;
+            padding-left:20px;
+            padding-right: 20px;
+            padding-top: 30px;
+            font-family:Helvetica;
+            font-weight: 500;
+            font-size: 20px;
+            color:black;
+            font-style:normal;
+        }
+        #cart-div>div:nth-child(2)>div:nth-child(2){
+            display: flex;
+            justify-content: space-between;
+            padding-left:20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            font-family:Helvetica;
+            font-weight: 500;
+            font-size: 30px;
+            color:black;
+            font-style:normal;
+        }
+        #continue{
+            width: 90%;
+            margin-left: 5%;
+            margin-top: 30px;
+            padding: 12px 0px ;
+            font-family:Helvetica;
+            font-weight: 400;
+            font-size: 20px;
+            border-radius: 5px;
+            background-color: black;
+            color: white;
+        }
+        #img{
+            width:100px;
+        }
+        #btn{
+            width: 40%;
+            padding: 10px 0px;
+            background-color: black;
+            color: white;
+            margin-bottom: 10px;
+        }
+        #details{
+            display:flex ;
+            justify-content: space-evenly;
+            background-color: rgb(84,86,88);
+            color: white;
+            padding-top: 20px;
+            padding-bottom: 70px;
+            margin-top: 200px;
+        }#details>div{
+            line-height: 3;
+        }
+        #footer{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 30px;
+            background-color: rgb(47,51,55);
+            color: white;
+            padding-left: 100px;
+            padding-top: 50px;
+            padding-bottom: 0px;
+        }
+        #footer>div:nth-child(2){
+            display: flex;
+            justify-content: space-evenly;
+            width: 40%;
+        }#footer>div:nth-child(1){
+            font-size: 15px;
+        }
+
+        #footer img{
+            margin-top: -8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="search-bar">
+        <div class="search">
+            <div id="logo">
+                <img src="Dn.png" alt="">
+                <h1>DailyNeeds</h1>
+            </div>
+            <div class="input-search">
+                <input type="text" placeholder="Search... everything you find ships for free">
+                <button><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></button>
+            </div>
+            
+            <div><svg class="UserDropDowns_icon_06" width="22" height="22" viewBox="0 0 24 24" stroke="#2F3337" fill="#2F3337"><title>User</title><path d="M1 23c0-5.523 4.477-10 10-10h2c5.523 0 10 4.477 10 10M12 13a6 6 0 100-12 6 6 0 000 12z" stroke="inherit" fill="none" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg><p><a href="./login.html"> Account </a></p></div>
+            <div><svg class="UserDropDowns_icon_06" width="22" height="22" viewBox="0 0 24 24" stroke="#2F3337" fill="#2F3337"><title>Heart</title><path d="M21.241 3.757A6 6 0 0012 4.684a6 6 0 10-9.242 7.558l9.241 9.243 9.243-9.243a6 6 0 000-8.485z" fill="none" stroke="inherit" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg><p>Lists</p></div>
+            <div><svg class="UserDropDowns_icon_06" width="22" height="21" viewBox="0 0 24 24" stroke="#2F3337" fill="#2F3337"><title>Cart Empty</title><path fill-rule="evenodd" clip-rule="evenodd" d="M7.174 14.4L5.208.833C5.14.356 4.697 0 4.174 0h-3.13C.466 0 0 .43 0 .96s.467.96 1.043.96H3.26l1.966 13.567c.07.477.512.833 1.035.833h14.608c.498 0 .926-.323 1.024-.772l2.087-9.6c.113-.52-.254-1.025-.819-1.13-.565-.103-1.115.234-1.228.754L20.014 14.4H7.174zm.13 9.6a2.087 2.087 0 100-4.174 2.087 2.087 0 000 4.174zm14.61-2.087a2.087 2.087 0 11-4.175 0 2.087 2.087 0 014.174 0z" stroke="none" fill="inherit"></path></svg><p>Cart</p></div>
+            
+        </div>
+
+    </div>
+    <div id="navigator">
+        <p><a href="./product.html">Furnicture</a></p>
+        <p><a href="./product.html">Rugs</a></p>
+        <p><a href="./product.html">Decor</a></p>
+        <p><a href="./product.html">Bedding</a></p>
+        <p><a href="./product.html">Home Improvement</a></p>
+        <p><a href="./product.html">Kitchen</a></p>
+        <p><a href="./product.html">Outdoor</a></p>
+        <p><a href="./product.html">Lighting</a></p>
+        <p><a href="./product.html">Kids & Baby</a></p>
+        <p><a href="./product.html">More</a></p>
+        <p>|</p>
+        <p><a href="./product.html">Ideas</a></p>
+        <p><a href="./product.html">Sales & Deals</a></p>
+    </div>
+    <h1 class="cart">Shopping Cart</h1>
+    <div id="cart-div">
+        <div id="product">
+            <h1>Your shopping cart is empty.</h1>
+        </div>
+        <div>
+            <div>
+                <div>items:</div>
+                <div id="tcost">INR 0.00</div>
+            </div>
+            <div>
+                <div>Your Total:</div>
+                <div class="tcost">INR 0.00</div>
+            </div>
+            <button id="continue">Continue Shopping</button>
+        </div>
+    </div>
+    <div id="details">
+        <div>
+            <h4>MY ACCOUNT</h4>
+            <p>Orders & Returns <br>
+            Email Preference <br>
+            Account Settingd</p>
+        </div>
+        <div>
+            <h4>LET US HELP</h4>
+            <p>Contact Costomer Care <br>
+            Shipping Information <br>
+            Return Policy <br>
+            International Help <br>
+            Accessibility
+            </p>
+        </div>
+        <div>
+            <h4>COMPANY INFORMATION</h4>
+            <p>
+                About DailyNeeds <br>
+                Contact Us <br>
+                Careers <br>
+                Investor Relations <br>
+                Sell Your Products <br>
+                Supply Chain Transparency
+            </p>
+        </div>
+        <div>
+            <h4>MORE WAYS TO SHOP</h4>
+            <p>
+                Tips & Ideas <br>
+                Deals <br>
+                Clearance <br>
+                New Arrivals
+            </p>
+        </div>
+    </div>
+    <div id="footer">
+        <div>© Copyright 2022, Overstock.com®, Inc. <br>
+
+            799 Coliseum Way Midvale, UT 84047 | 1-800-843-2446</div>
+        <div>
+            <p>Privacy Policy</p>
+           <p>Terms & Conditions</p> 
+           <p>*Promotion Terms</p>
+           <p>Ship to:</p>
+          <p><img src="https://ak1.ostkcdn.com/img/mxc/intFlag_IN.gif" alt=""></p>
+        </div>
+    </div>
+    </body>
+    <script>
+        let LSDATA = JSON.parse(localStorage.getItem("product"))
+
+        let totalCost =LSDATA.reduce((acc,el)=>acc+el.price,0);
+
+        document.querySelector("#tcost").innerText="INR "+totalCost
+
+        document.querySelector(".tcost").innerText="INR "+totalCost
+
+        displayData(LSDATA)
+        function displayData(LSDATA){
+            document.querySelector("#product").innerHTML="";
+            LSDATA.forEach(function(elem){
+                let div = document.createElement("div")
+
+            let imgs = document.createElement("img");
+            imgs.setAttribute("src",elem.images[0]);
+            imgs.setAttribute("id","imgs")
+
+            let title = document.createElement("h2")
+            title.innerText = elem.title;
+
+            let price = document.createElement("p")
+            price.innerText = "Cost - "+elem.price
+
+            let category = document.createElement("p");
+            category.innerText = "Category - "+elem.category.name;
+
+            btn = document.createElement("button");
+            btn.innerText = "Buy Now"
+            btn.setAttribute("id","btn")
+            btn.addEventListener("click",function(){
+                
+            })
+
+            div.append(imgs,title,price,category,btn);
+            document.querySelector("#product").append(div)
+            })
+        }
+    </script>
