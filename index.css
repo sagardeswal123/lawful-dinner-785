@@ -85,6 +85,10 @@
     height: 40px;
     align-items: center;
 }
+#navigator>p>a{
+    text-decoration: none;
+ }
+
 #navigator>p:nth-child(11){
     color:gainsboro;
 }
@@ -304,4 +308,7 @@
 
 #footer img{
     margin-top: -8px;
+}
+.UserDropDowns_icon_06{
+    text-decoration: none;
 }
